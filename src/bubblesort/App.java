@@ -2,19 +2,11 @@ package bubblesort;
 import arrayprinter.ArrayPrinter;
 
 public class App {
+    // Percorre toda a lista comparando número e o próximo e trocando eles de lugar
+    // percorre toda a lista na mesma quantidade que seu length
     public static int[] bubbleSort(int[] array) {
         int arraySize = array.length;
         int temp = 0;
-        // for (int x = 0; x < arraySize; x++) {
-        //     for (int y = 1; y < (arraySize-x); y++) {
-        //         if(array[y-1] > array[y]){  
-        //             temp = array[y-1];  
-        //             array[y-1] = array[y];  
-        //             array[y] = temp;  
-        //         }  
-        //     }
-            
-        // }
         
         for (int x = 0; x < (arraySize - 1); x++) {
             for (int y = 0; y < (arraySize - 1); y++) {

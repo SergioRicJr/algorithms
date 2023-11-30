@@ -2,6 +2,8 @@ package insertionsort;
 import arrayprinter.ArrayPrinter;
 
 public class App {
+    // A cada iteração ele percorre mais elementos
+    // A cada iteralção ele pega um elemento e leva ele para o limite?
     public static int[] insertionSort(int[] list) {
         int arraySize = list.length;
 
